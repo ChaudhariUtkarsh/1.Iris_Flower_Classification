@@ -18,4 +18,3 @@ os.makedirs("models", exist_ok=True)
 # Save Model
 joblib.dump(model, "models/iris_model.pkl")
 print("Model trained and saved successfully!")
-print("Classes:", iris.target_names)
